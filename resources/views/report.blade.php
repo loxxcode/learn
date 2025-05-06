@@ -24,6 +24,7 @@
                     <!-- Consolidated Table -->
                     <div class="row">
                         <div class="col-12">
+                            <button onclick="window.print()" class="print">Print Report</button>
                             <div class="table-responsive">
                                 <table class="table table-striped">
                                     <thead>
@@ -87,6 +88,19 @@
         width: 100%;
         border-collapse: collapse;
         margin: 2rem;
+    }
+    .print{
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 72rem;
+        margin-top: 1rem;
+    }
+    .print:hover{
+        background-color: #0056b3;
     }
 </style>
 </x-app-layout>
